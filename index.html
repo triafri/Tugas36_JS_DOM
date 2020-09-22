@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+        <meta charset="utf-8" />
+        <title>Belajar Javascript - NIOMIC</title>
+ </head>
+ <body>
+        <h2>Login</h2>
+        <p class="departement">- Department of Finance -</p>
+        <input type="email" id="" value="email" /> <br /><br />
+        <input type="username" id="" value="username" /> <br /><br />
+        <input type="password" class="password" value="password" /> <br /><br />
+
+        <button type="button" onclick="getClassTag()" name="button">Jalan</button>
+
+        <script type="text/javascript">
+        	function getClassTag(){
+        		var h2 = document.getElementsByTagName("h2")
+        		var password = document.getElementsByClassName("password")
+        		var departement = document.querySelector(".departement")
+        		console.log(h2)
+        		console.log(password)
+        		console.log(departement)
+        	}
+        </script>
+ </body>
+</html>
